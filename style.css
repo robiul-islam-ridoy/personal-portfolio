@@ -85,6 +85,12 @@ section, footer{
 .experience h3{
     color: orange;
 }
+.full-stake{
+    border-left: 7px solid tomato;
+}
+.baby-developer{
+    border-left: 7px solid blue;
+}
 
 /****** end of exprience ******/
 
