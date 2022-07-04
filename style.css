@@ -1,7 +1,11 @@
+/****** basic style ******/
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+}
+section, footer{
+    padding-top: 50px;
 }
 .container{
     width: 80%;
@@ -17,6 +21,10 @@ body{
     padding: 10px 15px;
     border-radius: 10px;
 }
+/****** end of basic style ******/
+
+/****** banner area ******/
+
 #banner-area{
     background: url(images/top-banner.png);
     background-repeat: no-repeat;
@@ -38,6 +46,9 @@ body{
 #banner-area h1 span{
     color: orange;
 }
+/****** end of banner area ******/
+
+/****** dream area ******/
 
 #dream-section{
     background: url(images/dream-bg.png);
@@ -46,4 +57,39 @@ body{
 }
 .dream-text{
     margin-left: 30px;
+}
+
+/****** end of dream area ******/
+
+/**** Experince Area ****/
+
+#experience-area{
+    background: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+.experience-heading{
+    font-size: 50px;
+}
+.experience{
+    width: 40%;
+    margin-left: 5%; 
+    padding: 0 2%;
+    box-shadow: 5px 7px 40px gray;
+    line-height: 35px;
+    border-radius: 5px;
+}
+.experience h1{
+    font-size: 35px;
+}
+.experience h3{
+    color: orange;
+}
+
+/****** end of exprience ******/
+
+/****** footer area ******/
+
+footer p{
+    text-align: center;
 }
